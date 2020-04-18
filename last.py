@@ -48,9 +48,9 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-\033[1;32mWelcome
-      \033[1;32mto
-\033[1;32mTermux
+                                                        \033[1;32mWelcome
+                                                        \033[1;32mto
+                                                        \033[1;32mTermux
 """
 
 def tik():
@@ -70,9 +70,9 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print "\x1b[0;31m?????????????????????????????????????????????????????????"
-print  """\x1b[0;31m [也 \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [也 \x1b[0;31mWHATSAPP : 085691015635\x1b[1;96m  
-\033[1;93m [也 \x1b[0;31mSTAY HOME\x1b[1;96m      [也 \x1b[0;31mFACEBOOK : TERMUX TOOLS\x1b[1;96m  
-\033[1;93m [也 \x1b[0;31mTOOLS BY AAHIL\x1b[1;96m  [也 \x1b[0;31mYOUTUBE  : AAHIL CREATIONSs\x1b[0;31m"""
+print  """\x1b[0;31m [瞻] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [瞻] \x1b[0;31mWHATSAPP : 085691015635\x1b[1;96m  
+\033[1;93m [瞻] \x1b[0;31mSTAY HOME\x1b[1;96m      [瞻] \x1b[0;31mFACEBOOK : TERMUX TOOLS\x1b[1;96m  
+\033[1;93m [瞻] \x1b[0;31mTOOLS BY AAHIL\x1b[1;96m  [瞻] \x1b[0;31mYOUTUBE  : AAHIL CREATIONSs\x1b[0;31m"""
 print " \x1b[1;93m????????????????????????????????????????????????????????"
 
 def login():
@@ -161,14 +161,11 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	print "   \033[1;36;40m      ???????????????????????????????????"
-	print "   \033[1;36;40m      ?\033[1;32;40m[*] Name\033[1;32;40m: "+nama+"  	   \033[1;36;40m?"                               
-	print "   \033[1;36;40m      ?\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m?"
-	print "   \033[1;36;40m      ?\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m?"
-	print "   \033[1;36;40m      ???????????????????????????????????"
-	print "\033[1;32;40m[1] \033[1;33;40m??Start Hack3ing"	
-	print "\033[1;32;40m[2] \033[1;33;40m??Update Aahil"																														
-	print "\033[1;32;40m[0] \033[1;33;40m??Log out"
+	print "   \033[1;36;40m      ?\033[1;32;40m[*] Name\033[1;32;40m: "+nama+"  	   \033[1;36;40m"                               
+	print "   \033[1;36;40m      ?\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m"
+	print "   \033[1;36;40m      ?\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m"
+	print "\033[1;32;40m[1] \033[1;33;40mStart Hacking"																															
+	print "\033[1;32;40m[0] \033[1;33;40mLog out"
 	pilih()
 
 def pilih():
@@ -205,11 +202,11 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\x1b[1;32;40m[1] \033[1;33;40m??Hack From Friend List"
-	print "\x1b[1;32;40m[2] \033[1;33;40m??Hack From Public ID"
-	print "\x1b[1;32;40m[3] \033[1;33;40m??Hack Bruteforce"
-	print "\x1b[1;32;40m[4] \033[1;33;40m??Hack From File"
-	print "\x1b[1;32;40m[0] \033[1;33;40m??Back"
+	print "\x1b[1;32;40m[1] \033[1;33;40mHack From Friend List"
+	print "\x1b[1;32;40m[2] \033[1;33;40mHack From Public ID"
+	print "\x1b[1;32;40m[3] \033[1;33;40mHack Bruteforce"
+	print "\x1b[1;32;40m[4] \033[1;33;40mHack From File"
+	print "\x1b[1;32;40m[0] \033[1;33;40mBack"
 	pilih_super()
 
 def pilih_super():
